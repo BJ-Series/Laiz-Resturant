@@ -26,6 +26,13 @@ var init = () => {
   }
 }
 
+var tick = (elapsedTime, multiplier) => {
+    let dt = BigNumber.from(elapsedTime * multiplier);
+    let bonus = theory.publicationMultiplier;
+
+    currency.value += getR1(r1.level);
+}
+
 var getR1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
 
 init();
