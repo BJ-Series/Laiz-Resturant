@@ -16,3 +16,5 @@ var init = () => {
   currency = theory.createCurrency();
   currency2 = theory.createCurrency();
 }
+
+init();
