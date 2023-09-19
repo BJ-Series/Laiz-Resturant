@@ -9,3 +9,10 @@ var name = "Laiz Resturant";
 var description = "THIS IS MY CUSTOM THEORY LOL";
 var authors = "QR Name";
 var version = "1.0.0";
+
+var currency, currency2;
+
+var init = () => {
+  currency = theory.createCurrency();
+  currency2 = theory.createCurrency();
+}
