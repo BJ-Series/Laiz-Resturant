@@ -26,4 +26,6 @@ var init = () => {
   }
 }
 
+var getR1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
+
 init();
